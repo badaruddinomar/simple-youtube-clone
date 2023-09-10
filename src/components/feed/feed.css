@@ -1,0 +1,19 @@
+.feed .clipLoader {
+  margin-top: 100px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: block;
+}
+.feed {
+  width: 100%;
+}
+
+.feed .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

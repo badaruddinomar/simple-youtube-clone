@@ -1,0 +1,29 @@
+.sidebar {
+  width: 95%;
+  padding: 1.5rem 6rem;
+  overflow-x: auto;
+
+  margin: 10px 0;
+  /* white-space: nowrap; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+  border: 2px solid rgb(177, 42, 42);
+  transition: all 0.23s linear;
+  margin-bottom: 10px;
+}
+.sidebar button:hover {
+  background-color: red;
+}

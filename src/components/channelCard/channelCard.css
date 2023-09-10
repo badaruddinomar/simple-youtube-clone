@@ -1,0 +1,7 @@
+.video-card .card .wrapper-link img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,110 @@
+.channel-detail {
+  padding: 1.5rem 6rem;
+}
+.channel-detail .banner {
+  width: 100%;
+}
+.channel-detail .banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.channel-detail .channel-info .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.channel-detail .channel-info .logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+}
+.channel-detail .channel-info .desc {
+  margin-top: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.channel-detail .channel-info .desc h2 {
+  font-size: 30px;
+  color: gray;
+  text-align: white;
+  margin: 10px 0;
+}
+.channel-detail .channel-info .desc p {
+  width: 600px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 17px;
+  color: gray;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  cursor: all-scroll;
+}
+.channel-detail .channel-videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+}
+.channel-detail .channel-videos .video-card {
+  width: 300px;
+  margin: 15px 0px;
+  height: 400px;
+  overflow: hidden;
+
+  padding: 0 10px;
+}
+.channel-detail .channel-videos .video-card .wrapper-link .video-image {
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.channel-detail .channel-videos .video-card .wrapper-link {
+  text-decoration: none;
+}
+.channel-detail .channel-videos .video-card .wrapper-link .video-image img {
+  object-fit: cover;
+  margin: 10px 10px;
+  border-radius: 10px;
+
+  max-width: 100%;
+  width: 100%;
+  height: 300px;
+  vertical-align: top;
+}
+.channel-detail .channel-videos .video-card .wrapper-link .video-desc h2 {
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  color: gray;
+  text-decoration: none;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+@media (max-width: 767px) {
+  .channel-detail {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 650px) {
+  .channel-detail .channel-videos .video-card {
+    width: 100%;
+  }
+  .channel-detail .channel-info .desc p {
+    width: 100%;
+  }
+  .channel-detail .channel-info .logo img {
+    width: 150px;
+    height: 150px;
+  }
+}

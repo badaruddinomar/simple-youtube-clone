@@ -1,0 +1,16 @@
+.searched-video {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cliploader {
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+}
+.loader-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
