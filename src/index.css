@@ -4,21 +4,15 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-:root{
-  --josefin-font-family:font-family: 'Josefin Sans', sans-serif;
-  --lora-font-family:font-family: 'Lora', serif;
-  --nunito-font-family:font-family: 'Nunito Sans', sans-serif;
-  --varela-font-family:font-family: 'Varela', sans-serif;
 
-}
 html {
   font-size: 62.5%;
 }
 body {
   overflow-x: hidden;
   width: 100vw;
-font-family: var(--josefin-font-family);
-  background-color: #0B2035;
+  font-family: sans-serif;
+  background-color: #0b2035;
 }
 
 ::-webkit-scrollbar {
